@@ -482,14 +482,14 @@ font-weight: bold;
     width: 71%;
     height: 30px;
   	background-color: white;
-    margin-left: 10px;
+    margin-left: 0px;
     border-radius: 20px;
   }
 
   .nav input{
     width: 118%;
     height:27px;
-    margin-left: -12px;
+    margin-left: -2px;
     border: 0.1px solid #000;
     border-radius: 0px;
   }
