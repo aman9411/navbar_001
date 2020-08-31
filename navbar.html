@@ -15,11 +15,10 @@
      <nav class="navbar navbar-expanded-md">
        <div class="navbar-brand">
           <a href="#"><h3>EzzYBuY</h3></a>
-           <input type="text" name="search items" value="  search items..">
-           <span><i class="fa fa-search" aria-hidden="true"></i></span>
-           <span><i id="fav" class="fa fa-heart-o" aria-hidden="true"></i></span>
-           <span><i id="bell" class="fa fa-bell-o" aria-hidden="true"></i></span>
-           <span><i id="bag" class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+           <span><i class="fa fa-search" aria-hidden="true" onclick="visible2();"></i>
+           <i id="fav" class="fa fa-heart-o" aria-hidden="true"></i>
+           <i id="bell" class="fa fa-bell-o" aria-hidden="true"></i>
+           <i id="bag" class="fa fa-shopping-bag" aria-hidden="true"></i></span>
        </div>
      </nav>
    </header>
@@ -281,10 +280,11 @@
 
 
     <div class="toggle">
+      <a href="#"><h3>EzzYBuY</h3></a>
       <ul class="items">
         <li><a href="#">Home</a></li>
         <li>
-          <button id="navbarToggle" class="navbar-toggler navbar-dark bg-light visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <button id="navbarToggle" class="nvbr navbar-toggler navbar-dark bg-light visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
               <span>Categories</span>
           </button>
 
@@ -303,7 +303,7 @@
               </div>
         </li>
         <li>
-          <button id="navbarToggle" class="navbar-toggler navbar-dark bg-light visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <button id="navbarToggle" class="nvbr navbar-toggler navbar-dark bg-light visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
               <span>Shop For</span>
           </button>
 
@@ -326,18 +326,32 @@
       </ul>
       <img src="images/cross.png" onclick="visible();">
     </div>
+    <div class="find">
+      <a href="#"><h3>EzzYBuY</h3></a>
+     <div class="go">
+       <button id="navbarToggle" class="nav navbar-toggler navbar-dark bg-light visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+           <span><input id="name" type="text" name="search items"></span>
+       </button>
+
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li id="navHomeButton" class="visible-xs">
+                <a id="Content" href="#"></a>
+              </li>
+            </ul>
+           </div>
+        <span><i id="con" class="fa fa-search" aria-hidden="true" onclick="sayHello();"></i></span>
+         </div>
+     <!-- <div id="Content">
+
+     </div> -->
+      <img src="images/cross.png" onclick="visible2();">
+    </div>
 
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      function visible(){
-        var toggle = document.querySelector('.hide');
-        toggle.classList.toggle('active')
-        var toggle = document.querySelector('.toggle');
-        toggle.classList.toggle('active')
-      }
-    </script>
+    <script src="js/script.js"></script>
     <script src="js/flickity.min.js"></script>
   </body>
 </html>
