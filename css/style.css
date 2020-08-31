@@ -479,17 +479,17 @@ font-weight: bold;
     text-align: left;
   }
   .nav{
-    width: 65%;
+    width: 71%;
     height: 30px;
   	background-color: white;
-    margin-left: 24px;
+    margin-left: 10px;
     border-radius: 20px;
   }
 
   .nav input{
-    width: 120%;
+    width: 118%;
     height:27px;
-    margin-left: -22px;
+    margin-left: -12px;
     border: 0.1px solid #000;
     border-radius: 20px;
   }
