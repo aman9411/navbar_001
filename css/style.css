@@ -491,13 +491,13 @@ font-weight: bold;
     height:27px;
     margin-left: -12px;
     border: 0.1px solid #000;
-    border-radius: 20px;
+    border-radius: 0px;
   }
   #Content{
     position: absolute;
     color: black;
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 15px;
     opacity: .7;
   }
   .go #con{
